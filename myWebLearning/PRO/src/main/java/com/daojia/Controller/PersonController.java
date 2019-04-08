@@ -36,10 +36,9 @@ public class PersonController {
         firstPublish.publish();
     }
 
-
-
-    public static void main1(String[] args) {
-
+    @RequestMapping("/mybat")
+    public void test3(){
+        person.mybatis_test();
     }
 
 

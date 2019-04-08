@@ -10,7 +10,7 @@
 
 
         <!--读取properties文件-->
-        <context:property-placeholder location="classpath:sys.properties"/>
+        <context:property-placeholder location="classpath*:sys.properties"/>
 
         <!--支持aop aspect-->
         <aop:aspectj-autoproxy />
@@ -22,7 +22,7 @@
         <!--注解驱动-->
         <context:annotation-config />
 
-
+        <import resource="classpath*:applicationContext-mybatis.xml" />
 
 
 

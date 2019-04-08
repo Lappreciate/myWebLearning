@@ -10,8 +10,7 @@
   <modules>
     <module>API</module>
     <module>DTO</module>
-    <module>Provider</module>
-      <module>PRO</module>
+    <module>PRO</module>
   </modules>
   <packaging>pom</packaging>
 
