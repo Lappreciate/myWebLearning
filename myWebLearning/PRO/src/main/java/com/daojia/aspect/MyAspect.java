@@ -8,17 +8,18 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyAspect {
 
-    /**
-     * 前置通知
-     */
+
     @Pointcut("execution(* com.daojia.Service.Impl..*.*(..))")
     public void logInfo(){
 
     }
 
+    /**
+     * 前置通知
+     */
     @Before("logInfo()")
     public void before(){
-        System.out.println("前置通知....");
+        System.out.println("aop-----前置通知....");
 
     }
 
@@ -30,24 +31,24 @@ public class MyAspect {
 
 
 
-    /**
-     * 环绕通知
-     * @param point 可用于执行切点的类
-     * @return
-     * @throws Throwable
-     */
-    @Around("logInfo()")
-    public Object around(ProceedingJoinPoint point) throws Throwable {
-        System.out.println("环绕通知前....");
-        Class<?> targetClass = point.getTarget().getClass();
-        Object[] args = point.getArgs();
-
-        System.out.println("调用的类是："+targetClass.getCanonicalName());
-        System.out.println("调用的方法是："+point.getSignature().getName());
-        Object obj= (Object) point.proceed();
-        System.out.println("环绕通知后....");
-        return obj;
-    }
+//    /**
+//     * 环绕通知
+//     * @param point 可用于执行切点的类
+//     * @return
+//     * @throws Throwable
+//     */
+//    @Around("logInfo()")
+//    public Object around(ProceedingJoinPoint point) throws Throwable {
+//        System.out.println("环绕通知前....");
+//        Class<?> targetClass = point.getTarget().getClass();
+//        Object[] args = point.getArgs();
+//
+//        System.out.println("调用的类是："+targetClass.getCanonicalName());
+//        System.out.println("调用的方法是："+point.getSignature().getName());
+//        Object obj= (Object) point.proceed();
+//        System.out.println("环绕通知后....");
+//        return obj;
+//    }
 
 
 }
