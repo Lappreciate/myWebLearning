@@ -7,19 +7,55 @@
             http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 
+    <!--数据源转换类-->
+    <bean id="dataSource0" class="com.daojia.multiDataSource.MultipleDataSourceToChoose">
+        <property name="targetDataSources">
+            <map key-type="java.lang.String">
+                <entry key="mybatis_test" value-ref="dataSource"/>
+                <entry key="mybatis_test1" value-ref="dataSource1"/>
+            </map>
+        </property>
+        <property name="defaultTargetDataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 配置抽象数据源  也可以理解为：父数据源-->
+    <bean id="abstractDataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          init-method="init" destroy-method="close" abstract="true">
+        <property name="maxWait" value="60000"/>
+        <property name="validationQuery" value="SELECT 1"/>
+        <property name="testOnBorrow" value="false"/>
+        <property name="testOnReturn" value="false"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+        <property name="minEvictableIdleTimeMillis" value="25200000"/>
+        <property name="removeAbandoned" value="true"/>
+        <property name="removeAbandonedTimeout" value="1800"/>
+        <property name="logAbandoned" value="true"/>
+        <property name="filters" value="mergeStat"/>
+    </bean>
+
     <!-- 配置数据源 -->
-    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
-        <property name="driverClass" value="${jdbc.driver}"/>
-        <property name="jdbcUrl" value="${jdbc.url}"/>
-        <property name="user" value="${jdbc.username}"/>
-        <property name="password" value="${jdbc.password}"/>
+    <bean id="dataSource" parent="abstractDataSource">
+        <property name="driverClassName" value="${mybatis_test.jdbc.driver}"/>
+        <property name="url" value="${mybatis_test.jdbc.url}"/>
+        <property name="username" value="${mybatis_test.jdbc.username}"/>
+        <property name="password" value="${mybatis_test.jdbc.password}"/>
+    </bean>
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource1" parent="abstractDataSource">
+        <property name="driverClassName" value="${mybatis_test1.jdbc.driver}"/>
+        <property name="url" value="${mybatis_test1.jdbc.url}"/>
+        <property name="username" value="${mybatis_test1.jdbc.username}"/>
+        <property name="password" value="${mybatis_test1.jdbc.password}"/>
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource" />
+        <property name="dataSource" ref="dataSource0"/>
         <property name="mapperLocations">
             <list>
                 <value>classpath*:mapper/*Mapper.xml</value>
+                <value>classpath*:mapper2/*Mapper.xml</value>
             </list>
         </property>
     </bean>

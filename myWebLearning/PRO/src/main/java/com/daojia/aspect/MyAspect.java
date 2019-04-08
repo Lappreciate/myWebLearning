@@ -1,33 +1,62 @@
 package com.daojia.aspect;
 
+import com.daojia.multiDataSource.HandlerDataSource;
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
+
+import java.lang.reflect.Method;
 
 @Aspect
 @Component
 public class MyAspect {
 
-
-    @Pointcut("execution(* com.daojia.Service.Impl..*.*(..))")
+    //Impl.表示  该包下 不包含子包
+    @Pointcut("execution(* com.daojia.Service.Impl.*.*(..))")
     public void logInfo(){
 
     }
 
+    //Impl..表示  该包下 以及子包下
+    @Pointcut("execution(* com.daojia.Service.Impl..*.insert*(..))")
+    public void DataSourceAopHandler(){
+    }
+
     /**
-     * 前置通知
+     * 前置通知  基本日志打印
      */
     @Before("logInfo()")
     public void before(){
-        System.out.println("aop-----前置通知....");
+        System.out.println("aop---------------前置通知start....");
+        System.out.println();
+
+
+        System.out.println();
+        System.out.println("aop---------------前置通知end....");
+    }
+
+
+    /**
+     * 前置通知  针对数据源切换功能
+     */
+    @Before("DataSourceAopHandler()")
+    public void beforeDataSource(JoinPoint joinPoint){
+        System.out.println("aop---------------前置通知start....");
+        System.out.println();
+        System.out.println("DataSourceAopHandler------------------------------------");
+
+        HandlerDataSource.putDataSource("mybatis_test");
+        //HandlerDataSource.putDataSource("mybatis_test1");
+
+        System.out.println();
+        System.out.println("aop---------------前置通知end....");
 
     }
 
 
-    @After("logInfo()")
-    public void after(){
-        System.out.println("最终通知....");
-    }
+
 
 
 
@@ -49,6 +78,11 @@ public class MyAspect {
 //        System.out.println("环绕通知后....");
 //        return obj;
 //    }
+
+    @After("logInfo()")
+    public void after(){
+        System.out.println("最终通知....");
+    }
 
 
 }

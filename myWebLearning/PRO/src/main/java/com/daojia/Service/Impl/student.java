@@ -37,4 +37,14 @@ public class student implements Person {
         bookDAO.insert(book);
         System.out.println(book.getTitle()+"：已经插入");
     }
+
+    @Override
+    public void insert() {
+        Book book = new Book();
+        book.setTitle("编程思想");
+        book.setPublishDate(new Date());
+        book.setPrice(100);
+        bookDAO.insert(book);
+        System.out.println(book.getTitle()+"：已经插入");
+    }
 }

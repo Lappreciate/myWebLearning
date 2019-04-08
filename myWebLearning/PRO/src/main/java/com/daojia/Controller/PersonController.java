@@ -1,6 +1,7 @@
 package com.daojia.Controller;
 
 import com.daojia.Service.Impl.FirstPublish;
+import com.daojia.Service.Impl.mybatis_dao.BookService;
 import com.daojia.User.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -25,6 +26,9 @@ public class PersonController {
     @Autowired
     private FirstPublish firstPublish;
 
+    @Autowired
+    private BookService bookService;
+
     @RequestMapping("/test1")
     public void test1(String str){
         person.getNumById(1000L);
@@ -39,6 +43,12 @@ public class PersonController {
     @RequestMapping("/mybat")
     public void test3(){
         person.mybatis_test();
+    }
+
+    @RequestMapping("/test2")
+    public void test4(){
+        bookService.insertBook();
+        //bookService.insertUser();
     }
 
 

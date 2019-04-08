@@ -6,4 +6,6 @@ public interface Person {
     void person1();
 
     void mybatis_test();
+
+    void insert();
 }
