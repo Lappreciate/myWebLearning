@@ -48,7 +48,7 @@ public class PersonController {
     @RequestMapping("/test2")
     public void test4(){
         bookService.insertBook();
-        //bookService.insertUser();
+        bookService.insertUser();
     }
 
 

@@ -1,5 +1,6 @@
 package com.daojia.aspect;
 
+import com.daojia.DataSourceType;
 import com.daojia.multiDataSource.HandlerDataSource;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -47,9 +48,19 @@ public class MyAspect {
         System.out.println();
         System.out.println("DataSourceAopHandler------------------------------------");
 
-        HandlerDataSource.putDataSource("mybatis_test");
-        //HandlerDataSource.putDataSource("mybatis_test1");
-
+        Class clazz = joinPoint.getTarget().getClass();
+        String methodName = joinPoint.getSignature().getName();
+        Class[] params = ((MethodSignature)joinPoint.getSignature()).getParameterTypes();
+        try {
+            Method method= clazz.getMethod(methodName,params);
+            if(method.isAnnotationPresent(DataSourceType.class)){
+                DataSourceType type = method.getAnnotation(DataSourceType.class);
+                String dataSource = type.value();
+                HandlerDataSource.putDataSource(dataSource);
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         System.out.println();
         System.out.println("aop---------------前置通知end....");
 
