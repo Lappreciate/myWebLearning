@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <properties>
+        <!--日志根目录-->
+        <property name="LOG_HOME">${sys:catalina.base}/logs</property>
+        <!--日志名称，每个工程不一样，需要修改-->
+        <property name="LOG_NAME">myWebLearning.log</property>
+
+        <property name="PATTERN_LAYOUT">%d{yy-MM-dd HH:mm:ss SSS} [%-5level] [%t] [%c{1}.%M:%L] - %m - [trace=%X{traceId}]%n%ex</property>
+    </properties>
+
+    <Appenders>
+        <Console name="myConsole" >
+            <PatternLayout pattern="${PATTERN_LAYOUT}" />
+        </Console>
+
+        <RollingFile name="activeAppender"
+                     fileName="${LOG_HOME}/${LOG_NAME}"
+                     filePattern="${LOG_HOME}/${LOG_NAME}.%d{yyyy-MM-dd}">
+            <PatternLayout>
+                <Pattern>${PATTERN_LAYOUT}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+
+        <!--只接受Error日志-->
+        <RollingFile name="errorAppender"
+                     fileName="${LOG_HOME}/error.log"
+                     filePattern="${LOG_HOME}/error.log.%d{yyyy-MM-dd}">
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>${PATTERN_LAYOUT}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="myConsole" />
+            <AppenderRef ref="errorAppender"/>
+            <AppenderRef ref="activeAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

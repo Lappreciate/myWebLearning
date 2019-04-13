@@ -1,4 +1,4 @@
-package java.com.lsy.threadLearn;
+package com.lsy.threadLearn;
 
 public class MyThread_1{
 

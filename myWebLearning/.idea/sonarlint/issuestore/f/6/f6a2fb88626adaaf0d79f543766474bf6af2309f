@@ -1,10 +1,10 @@
 
 lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÐÛŒõ8«×¿ÔŸ-
-V
-squid:S106&"9Replace this use of System.out or System.err by a logger.(êÈª¹8ßÛÃÖŸ-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹‡Ôëùÿÿÿÿ
 O
 squid:S106"9Replace this use of System.out or System.err by a logger.(Þö—š
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹‡Ôëùÿÿÿÿ
-zsquid:S4144*"\Update this method so that its implementation is not identical to "mybatis_test" on line 32.(¼ËÑó8‚ŒŸëŸ-
 V
 squid:S1060"9Replace this use of System.out or System.err by a logger.(êÈª¹8‚ŒŸëŸ-
+zsquid:S4144*"\Update this method so that its implementation is not identical to "mybatis_test" on line 32.(¼ËÑó8‚ŒŸëŸ-
+V
+squid:S106&"9Replace this use of System.out or System.err by a logger.(êÈª¹8ßÛÃÖŸ-
