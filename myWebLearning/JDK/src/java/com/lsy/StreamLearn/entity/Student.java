@@ -33,4 +33,14 @@ public class Student{
     public void setAge(Integer age) {
         this.age = age;
     }
+
+//    @Override
+//    public boolean equals(Object obj) {
+//        return true;
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return 1;
+//    }
 }

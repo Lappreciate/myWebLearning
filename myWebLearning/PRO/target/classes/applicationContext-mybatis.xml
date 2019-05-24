@@ -34,7 +34,7 @@
         <property name="filters" value="mergeStat"/>
     </bean>
 
-    <!-- 配置数据源 -->
+    <!-- 配置数据源 mybatis_test-->
     <bean id="dataSource" parent="abstractDataSource">
         <property name="driverClassName" value="${mybatis_test.jdbc.driver}"/>
         <property name="url" value="${mybatis_test.jdbc.url}"/>
@@ -42,7 +42,7 @@
         <property name="password" value="${mybatis_test.jdbc.password}"/>
     </bean>
 
-    <!-- 配置数据源 -->
+    <!-- 配置数据源 mybatis_test1-->
     <bean id="dataSource1" parent="abstractDataSource">
         <property name="driverClassName" value="${mybatis_test1.jdbc.driver}"/>
         <property name="url" value="${mybatis_test1.jdbc.url}"/>

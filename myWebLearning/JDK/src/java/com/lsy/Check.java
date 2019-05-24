@@ -1,41 +1,40 @@
 package com.lsy;
 
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
-import java.util.HashMap;
-import java.util.Set;
-import java.util.HashSet;
+import java.util.*;
 
 public class Check{
 
     private final static double REPEAT_RATE = 0.6f;
     // you can add your data-structure here
-    private static List<Map<Character, Integer>> standardDocFeatureList = null;
+    //private static List<Map<Character, Integer>> standardDocFeatureList = null;
     // you must rewrite this function
+    private static List<BitSet> standardDocFeatureList = null;
+
+
+
+
     public void init(Vector<String> docList){
         standardDocFeatureList = new LinkedList<>();
         int docListSize = docList.size();
         for(int i = 0; i < docListSize ; i++){
             String doc = docList.get(i);
             if(doc != null && doc.length() > 0){
-                Map docFeatureMap = null;
-                docFeatureMap = getDocFeature(doc);
-                standardDocFeatureList.add(docFeatureMap);
+                BitSet set = null;
+                set = getDocFeature(doc);
+                standardDocFeatureList.add(set);
             }
         }
     }
     //my function
-    private Map<Character,Integer> getDocFeature(String doc){
-        Map docFeatureMap = new HashMap<Character,Integer>();
+    private BitSet getDocFeature(String doc){
+        BitSet bitSet = new BitSet();
         int docSize = doc.length();
         for(int i = 0 ; i < docSize ; i++){
-            Character key = doc.charAt(i);
-            docFeatureMap.put(key,0);
+            System.out.print(" "+(int)doc.charAt(i));
+            bitSet.set((int)doc.charAt(i),true);
         }
-        return docFeatureMap;
+        return bitSet;
     }
 
     // you must rewrite this function
@@ -52,10 +51,10 @@ public class Check{
 
         for(int i = 0 ; i < standardDocListSize ; i++){
             double repeatCount = 0;
-            Map standardDocFeatureMap = standardDocFeatureList.get(i);
-            double standardDocFeatureMapSize = (double)standardDocFeatureMap.size();
+            BitSet standardBitSet = standardDocFeatureList.get(i);
+            double standardDocFeatureMapSize = (double)standardBitSet.cardinality();
             for(Character c : tmpDocFeatureSet){
-                if(standardDocFeatureMap.containsKey(c)){
+                if(standardBitSet.get((int)c)){
                     repeatCount++;
                     if(repeatCount/standardDocFeatureMapSize>=REPEAT_RATE) return 1;
                 }
@@ -63,6 +62,17 @@ public class Check{
         }
         return 0;
     }
+
+//    public static void main(String[] args) {
+//        BitSet bitSet = new BitSet();
+//        bitSet.set(1,true);
+//        bitSet.set(2,true);
+//        bitSet.set(3,true);
+//        for(int i=0;i<4;i++){
+//            System.out.println(bitSet.get(i));
+//        }
+//        System.out.print(bitSet.cardinality());
+//    }
 }
 
 
