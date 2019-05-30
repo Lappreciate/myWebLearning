@@ -1,0 +1,36 @@
+package com.lsy.algorithm.leetcode;
+
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ * 获得数组全排列的一个实现算法
+ */
+
+public class Permutations {
+    //s表示，从array[start]后的数据进行全排列
+    public static void permute(int[] array, int start) {
+        if (start == array.length) {  // 输出
+            System.out.println(Arrays.toString(array));
+        } else
+            for (int i = start; i < array.length; ++i) {
+                swap(array, start, i);  //  交换元素
+                permute(array, start + 1);  //交换后，再进行全排列算法
+                swap(array, start, i);  //还原成原来的数组，便于下一次的全排列
+            }
+    }
+
+    private static void swap(int[] array, int s, int i) {
+        int t = array[s];
+        array[s] = array[i];
+        array[i] = t;
+    }
+
+    public static void main(String[] args) {
+        int[] array = new int[]{1, 2, 3};
+        permute(array, 0);
+    }
+}

@@ -7,34 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="201cd418-b204-469f-b30b-8a38bf570d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/StreamLearn/funcInterface/FuncInterfa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/StreamLearn/funcInterface/JudgeCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/bitmap/BitMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/MyObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/time/TimeTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PRO/src/main/java/com/daojia/cache/RedisJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PRO/src/main/java/com/daojia/learn/mybati/MyPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3637c500e82f57788d2f77b8fbdf44c49eb1a8d0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3637c500e82f57788d2f77b8fbdf44c49eb1a8d0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/sort/PartFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/ExceptionThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/InterruptedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/ThreadResetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5baeb81bb2cb9c35ab1933b96d7acf5de25a4cf0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5baeb81bb2cb9c35ab1933b96d7acf5de25a4cf0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76ea74d6e9bbbcd63068d07d014b7107478c9c21" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76ea74d6e9bbbcd63068d07d014b7107478c9c21" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6f84ace487879c893ee60038068e277fe9f92ae" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6f84ace487879c893ee60038068e277fe9f92ae" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/beefd6cc7e9791df9a91482c8d01fcc1aba4e1f5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/beefd6cc7e9791df9a91482c8d01fcc1aba4e1f5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1d8a04dc27b425469d6bca75c49a2ca92bcf0a9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1d8a04dc27b425469d6bca75c49a2ca92bcf0a9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK/src/java/com/lsy/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/Check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK/src/java/com/lsy/StreamLearn/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK/src/java/com/lsy/StreamLearn/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PRO/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRO/src/main/resources/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PRO/src/main/resources/applicationContext-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRO/target/PRO/WEB-INF/classes/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PRO/target/PRO/WEB-INF/classes/applicationContext-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRO/target/classes/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PRO/target/classes/applicationContext-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdk/com/lsy/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdk/com/lsy/Check.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdk/com/lsy/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdk/com/lsy/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdk/com/lsy/Out.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdk/com/lsy/Out.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK/src/java/com/lsy/bitmap/BitMap.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/DTO/target/" />
@@ -49,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/StreamLearn/funcInterface/FuncInterfa.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="284">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,13 +44,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/time/TimeTools.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/ExceptionThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+            <state relative-caret-position="44">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/ReverseList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="898">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +79,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -129,14 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Provider/src/main/resources/sys.properties" />
-        <option value="$PROJECT_DIR$/Provider/src/main/java/com/daojia/interceptor/AccessInterceptor.java" />
-        <option value="$PROJECT_DIR$/Provider/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/PRO/src/test/java/com/daojia/controller/aspectTest.java" />
-        <option value="$PROJECT_DIR$/PRO/src/main/java/com/daojia/interceptor/AccessInterceptor.java" />
-        <option value="$PROJECT_DIR$/PRO/src/main/java/com/daojia/myEvent/FirstEvent.java" />
-        <option value="$PROJECT_DIR$/PRO/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/StreamLearn/StreamLearn1.java" />
         <option value="$PROJECT_DIR$/PRO/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/PRO/src/main/java/com/daojia/multiDataSource/MultipleDataSourceToChoose.java" />
         <option value="$PROJECT_DIR$/PRO/src/main/java/com/daojia/multiDataSource/HandlerDataSource.java" />
@@ -180,6 +171,14 @@
         <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/Type.java" />
         <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/MyObserver.java" />
         <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/time/TimeTools.java" />
+        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/sort/PartFind.java" />
+        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/ThreadResetDemo.java" />
+        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/InterruptedDemo.java" />
+        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/ReverseList.java" />
+        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/ExceptionThreadDemo.java" />
+        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/Permutations.java" />
+        <option value="$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/A.java" />
       </list>
     </option>
   </component>
@@ -211,10 +210,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-621" />
+    <option name="y" value="128" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -270,47 +269,33 @@
             <path>
               <item name="myWebLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="myWebLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="PRO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myWebLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myWebLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="PRO" type="462c0819:PsiDirectoryNode" />
+              <item name="JDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myWebLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myWebLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="PRO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myWebLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myWebLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="PRO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myWebLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myWebLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="PRO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lsy" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myWebLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="myWebLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="PRO" type="462c0819:PsiDirectoryNode" />
+              <item name="JDK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="daojia" type="462c0819:PsiDirectoryNode" />
+              <item name="lsy" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myWebLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myWebLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="JDK" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lsy" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,9 +305,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557926261943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559187181397" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -359,13 +345,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test1">
-    <configuration name="FuncInterfa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lsy.StreamLearn.funcInterface.FuncInterfa" />
+  <component name="RunManager" selected="Application.ReverseList">
+    <configuration name="ExceptionThreadDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsy.concurrent.ExceptionThreadDemo" />
       <module name="JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lsy.StreamLearn.funcInterface.*" />
+          <option name="PATTERN" value="com.lsy.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFrame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lsy.MainFrame" />
+    <configuration name="ExceptionThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsy.concurrent.ExceptionThreadDemo" />
       <module name="JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lsy.*" />
+          <option name="PATTERN" value="com.lsy.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,12 +372,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daojia.cache.RedisJava" />
-      <module name="PRO" />
+    <configuration name="InterruptedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsy.concurrent.InterruptedDemo" />
+      <module name="JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.daojia.cache.*" />
+          <option name="PATTERN" value="com.lsy.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsy.algorithm.leetcode.ReverseList" />
+      <module name="JDK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsy.algorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,25 +411,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lsy.Test" />
+    <configuration name="ThreadResetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsy.concurrent.ThreadResetDemo" />
       <module name="JDK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lsy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lsy.observerModel.Test1" />
-      <module name="JDK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lsy.observerModel.*" />
+          <option name="PATTERN" value="com.lsy.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -539,21 +525,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.StreamLearn1" />
-      <item itemvalue="Application.MainFrame (1)" />
-      <item itemvalue="Application.FuncInterfa" />
-      <item itemvalue="Application.RedisJava" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test1" />
       <item itemvalue="Maven.myWebLearning [jetty:run]" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.37" />
+      <item itemvalue="Application.InterruptedDemo" />
+      <item itemvalue="Application.ThreadResetDemo" />
+      <item itemvalue="Application.ExceptionThreadDemo" />
+      <item itemvalue="Application.ExceptionThreadDemo (1)" />
+      <item itemvalue="Application.ReverseList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.RedisJava" />
-        <item itemvalue="Application.FuncInterfa" />
-        <item itemvalue="Application.MainFrame (1)" />
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.ExceptionThreadDemo" />
+        <item itemvalue="Application.ThreadResetDemo" />
+        <item itemvalue="Application.ExceptionThreadDemo (1)" />
+        <item itemvalue="Application.InterruptedDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +589,18 @@
       <workItem from="1557910790944" duration="1568000" />
       <workItem from="1558057698129" duration="997000" />
       <workItem from="1558694212474" duration="163000" />
+      <workItem from="1558694461144" duration="6112000" />
+      <workItem from="1558920449403" duration="3131000" />
+      <workItem from="1558961177886" duration="20535000" />
     </task>
+    <task id="LOCAL-00001" summary="nothing">
+      <created>1558694619992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558694619992</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -639,7 +636,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182605000" />
+    <option name="totallyTimeSpent" value="212383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,8 +649,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28214827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -663,14 +661,14 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3229508" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36557376" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29016393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3557484" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.57213116" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32786885" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32936078" />
@@ -728,6 +726,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nothing" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -737,80 +739,28 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/sort/PartFind.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/Permutations.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/ReverseList.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="707" column="64" selection-start-line="707" selection-start-column="54" selection-end-line="707" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PRO/src/main/resources/mybatis-config.xml" />
-    <entry file="jar://D:/MavenLocalRepository/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PRO/src/main/java/com/daojia/Controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3410">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/mySet/MyHashSet.java" />
-    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/mySet/MySet.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="624" column="27" lean-forward="true" selection-start-line="624" selection-start-column="27" selection-end-line="624" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/standard_doc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/MavenLocalRepository/org/mybatis/mybatis/3.2.6/mybatis-3.2.6.jar!/org/apache/ibatis/exceptions/ExceptionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -835,13 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/bitmap/BitMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -919,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PRO/src/main/java/com/daojia/multiDataSource/MultipleDataSourceToChoose.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PRO/src/main/java/com/daojia/learn/mybati/MyPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -948,20 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PRO/src/main/java/com/daojia/multiDataSource/HandlerDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#149#157#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1077,30 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="78" column="46" lean-forward="true" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
-          <folding>
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#3747#3748#0" expanded="true" />
-            <element signature="e#3784#3785#0" expanded="true" />
-            <element signature="e#5937#5938#0" expanded="true" />
-            <element signature="e#5967#5968#0" expanded="true" />
-            <element signature="e#6978#6979#0" expanded="true" />
-            <element signature="e#7008#7009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1118,16 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/MyObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1135,20 +1023,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1778">
+          <caret line="451" column="39" selection-start-line="451" selection-start-column="28" selection-end-line="451" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
+          <folding>
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#3747#3748#0" expanded="true" />
+            <element signature="e#3784#3785#0" expanded="true" />
+            <element signature="e#5937#5938#0" expanded="true" />
+            <element signature="e#5967#5968#0" expanded="true" />
+            <element signature="e#6978#6979#0" expanded="true" />
+            <element signature="e#7008#7009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/StreamLearn/funcInterface/FuncInterfa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="1782">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PRO/src/main/java/com/daojia/multiDataSource/HandlerDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRO/src/main/java/com/daojia/multiDataSource/MultipleDataSourceToChoose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/time/TimeTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        <state relative-caret-position="264">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/sort/PartFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/observerModel/MyObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/bitmap/BitMap.java" />
+    <entry file="file://$PROJECT_DIR$/PRO/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/ThreadResetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/InterruptedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/ReverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/ExceptionThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/concurrent/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDK/src/java/com/lsy/algorithm/leetcode/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
