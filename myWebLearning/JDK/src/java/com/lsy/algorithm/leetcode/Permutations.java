@@ -2,12 +2,11 @@ package com.lsy.algorithm.leetcode;
 
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * 获得数组全排列的一个实现算法
+ * 链表合并 链表相加 链表逆置  链表有环
  */
 
 public class Permutations {

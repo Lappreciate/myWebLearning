@@ -1,11 +1,16 @@
 package com.lsy.concurrent;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class ExceptionThreadDemo {
     private static boolean i;
 
     public static void main(String[] args) throws InterruptedException {
+        Lock lock = new ReentrantLock();
+        lock.lock();
+        lock.unlock();
         Thread thread = new Thread(()->{
            while(true) {
                try {
